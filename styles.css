@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(88, 104, 98);
+  margin: 0 auto;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: merel, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+button {
+  font-size: 2rem;
+  font-family: "gelica", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 1rem;
+
+}
+
+.rock,
+.paper,
+.scissors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  font-family: "gelica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #00000069;
+  background-color: #ffffff46;
+}
+
+.computerScore {
+  text-align: end  ;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+  font-size: 2rem;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: merel, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.results {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  color: #ffffffab;
+  font-family: gelica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  gap: 1rem;
+}
+
+
+
