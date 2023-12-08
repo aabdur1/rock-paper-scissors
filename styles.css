@@ -20,6 +20,15 @@ button {
   font-weight: 500;
   font-style: italic;
   color: #000;
+  cursor: pointer;
+  background-color: rgb(251, 255, 239);
+  border: none;
+  transition: 250ms;
+}
+
+button:hover {
+  background-color: rgb(245, 255, 211);
+  transform: translateY(3px);
 }
 
 .container {
