@@ -23,12 +23,27 @@ button {
   cursor: pointer;
   background-color: rgb(251, 255, 239);
   border: none;
+  box-shadow: 
+  0 1px 1px hsla(117deg, 0%, 0%, 0.075),
+  0 2px 2px hsl(117deg 0% 0% / 0.075),
+  0 4px 4px hsl(117deg 0% 0% / 0.075),
+  0 8px 8px hsl(117deg 0% 0% / 0.075),
+  0 16px 16px hsl(117deg 0% 0% / 0.075)
+  ;
   transition: 250ms;
+
+  margin: 1rem;
 }
 
 button:hover {
   background-color: rgb(245, 255, 211);
-  transform: translateY(3px);
+  transform: translateY(4%);
+  box-shadow: 
+  0 1px 1px hsla(117deg, 0%, 0%, 0.075),
+  0 2px 2px hsl(117deg 0% 0% / 0.075),
+  0 4px 4px hsl(117deg 0% 0% / 0.075),
+  0 12px 12px hsl(117deg 0% 0% / 0.33)
+  ;
 }
 
 .container {
