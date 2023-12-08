@@ -7,11 +7,22 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: rgb(255, 248, 239);
   font-family: merel, sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 2.5rem;
+}
+
+h1.title,
+.scoreBoard {
+  text-shadow: 
+  0 1px 1px hsla(117deg, 0%, 0%, 0.075),
+  0 2px 2px hsl(117deg 0% 0% / 0.075),
+  0 4px 4px hsl(117deg 0% 0% / 0.075),
+  0 8px 8px hsl(117deg 0% 0% / 0.075),
+  0 16px 16px hsl(117deg 0% 0% / 0.075)
+  ;
 }
 
 button {
@@ -81,8 +92,8 @@ img {
   font-family: "gelica", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.5rem;
-  color: #00000069;
+  font-size: 1.8rem;
+  color: rgb(255, 248, 239);
   background-color: #ffffff46;
 }
 
@@ -106,7 +117,7 @@ img {
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  color: #ffffffab;
+  color: rgb(255, 248, 239);
   font-family: gelica, sans-serif;
   font-weight: 700;
   font-style: normal;
